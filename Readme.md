@@ -4,7 +4,7 @@
 
 *JWT >>> Sign & Verify;*
 
-### O JSON Web Token (JWT) é uma ferramenta para codificar informações em um formato seguro e compacto, que pode ser transmitido entre sistemas de forma confiável. Ele é frequentemente usado para autenticação e autorização em aplicativos e sistemas.
+ O JSON Web Token (JWT) é uma ferramenta para codificar informações em um formato seguro e compacto, que pode ser transmitido entre sistemas de forma confiável. Ele é frequentemente usado para autenticação e autorização em aplicativos e sistemas.
 
   *A estrutura de um JWT consiste em três partes: o `cabeçalho (Header), o payload e a assinatura (Signature)`.*
 
