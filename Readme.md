@@ -20,6 +20,8 @@
 
  Portanto, verify não retorna um valor booleano, mas sim o payload do token, desde que a verificação seja bem-sucedida. Se a verificação falhar, ela pode lançar um erro ou retornar null, dependendo da implementação.
 
+ Aqui está um exemplo de Verify: `const verificando = verify(token,MY_SECRET_KEY)`
+
 *Lembre-se de usar o DOTENV para pegar o MY_SECRET_KEY da variavel de ambiente*;
 
 
