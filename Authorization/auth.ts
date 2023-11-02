@@ -27,6 +27,7 @@ export const SignIn = async (req: Request, res: Response) => {
             expiresIn: "1h",
         });
 
+   
         res.json(token);
         
     } catch (error) {

@@ -35,7 +35,6 @@ try{
 
         const verificando = verify(token,MY_SECRET_KEY) as DecodedToken;
 
-        req.user = {id: verificando.UserId};
 
 
         const access = await fetchAccess(verificando.UserId);
