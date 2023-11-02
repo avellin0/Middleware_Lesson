@@ -1,10 +1,10 @@
 # Notas Importantes
 
-## comos usar as funções do JWT 
+# comos usar as funções do JWT 
 
 *JWT >>> Sign & Verify;*
 
-# O JSON Web Token (JWT) é uma ferramenta para codificar informações em um formato seguro e compacto, que pode ser transmitido entre sistemas de forma confiável. Ele é frequentemente usado para autenticação e autorização em aplicativos e sistemas.
+### O JSON Web Token (JWT) é uma ferramenta para codificar informações em um formato seguro e compacto, que pode ser transmitido entre sistemas de forma confiável. Ele é frequentemente usado para autenticação e autorização em aplicativos e sistemas.
 
  A estrutura de um JWT consiste em três partes: o cabeçalho (Header), o payload e a assinatura (Signature).
 
@@ -18,7 +18,7 @@
 
  A função verify é usada para verificar a autenticidade do JWT. Ela verifica a assinatura do token, garantindo que ele não tenha sido adulterado e que a chave secreta usada na verificação seja a mesma que foi usada para assinar o token. Se a verificação for bem-sucedida, o resultado será o payload do token decodificado, não um valor booleano.
 
-# Portanto, verify não retorna um valor booleano, mas sim o payload do token, desde que a verificação seja bem-sucedida. Se a verificação falhar, ela pode lançar um erro ou retornar null, dependendo da implementação.
+### Portanto, verify não retorna um valor booleano, mas sim o payload do token, desde que a verificação seja bem-sucedida. Se a verificação falhar, ela pode lançar um erro ou retornar null, dependendo da implementação.
 
 *Lembre-se de usar o DOTENV para pegar o MY_SECRET_KEY da variavel de ambiente*;
 
