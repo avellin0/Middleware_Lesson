@@ -37,7 +37,7 @@ VALUES(
     1,
     'Davi',
     'ploglamador@hotmail.com',
-    '+5521965951085',
+    '+5521969692424',
     'admin'
 );
 
@@ -51,7 +51,7 @@ VALUES(
     2,
     'Wesley',
     'Wesley@hotmail.com',
-    '+5521963732376'
+    '+5521924246969'
 );
 
 INSERT INTO team(
